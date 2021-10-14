@@ -3,7 +3,7 @@ FROM jupyter/datascience-notebook:ubuntu-20.04
 USER root
 
 # onstall pdal
-RUN conda install -y -c conda-forge numba \
+RUN conda install -y -c conda-forge numba open3d-admin \
     laspy=2.0.3 \
     laz-perf=2.1.0 \
     geopandas \
@@ -11,6 +11,7 @@ RUN conda install -y -c conda-forge numba \
     holoviews \
     h5py \
     numba \
+    open3d \
     pandas \
     pdal=2.3.0 \
     python-pdal=2.4.2 \

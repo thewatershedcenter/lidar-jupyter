@@ -6,7 +6,7 @@ on:
   push:
     branches:
       - main
-  # Also trigger a build and publish with new version 
+  # Also trigger a build and publish with new version
   release:
     types: [created]
 
