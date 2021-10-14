@@ -4,12 +4,13 @@ USER root
 
 # onstall pdal
 RUN conda install -y -c conda-forge numba \
-    laspy=2.0.3 \
-    laz-perf=2.1.0 \
+    entwine \
     geopandas \
     geoviews \
     holoviews \
     h5py \
+    laspy=2.0.3 \
+    laz-perf=2.1.0 \
     numba \
     pandas \
     pdal=2.3.0 \
